@@ -5,6 +5,7 @@
 
 //We cannot store primitives in ArrayList, it can only store objects. But array can contain both primitives and objects in Java. 
 //
+//
 package java_tutorials; 
 
 import java.util.ArrayList; //once we created object of Array list here we are importing 
