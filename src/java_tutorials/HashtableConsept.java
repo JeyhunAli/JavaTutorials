@@ -1,6 +1,14 @@
 package java_tutorials;
 //A hash table is a data structure that is used to store keys/value pairs.
 //It uses a hash function to compute an index into an array in which an element will be inserted or searched
+// hashtable is synchronized   it means one by one 
+// its similiar to the hashmap 
+//hashtable  key in form of the object  and value in form the hashcode each and every value has own unique code 
+//hashtable is allows unique values but not nul values
+//but in hashmap we can store multiple null values 
+//generics are allowed in hashtable
+
+
 
 import java.util.Hashtable;
 
