@@ -35,7 +35,8 @@ package oppsConseptPart2;
 
 //takesscrenshot  for tht we use dependency  interface name takesScreenShot theres method getscreenShot 
 
-//scroll down in selenium we handle two ways 1 action class creation object of the action class then send keys method then keys.scroll up method and 
+//scroll down in selenium we handle two ways 1 action class creation object of the action class then send 
+//keys method then keys.scroll up method and 
 // scroll down keys.scroll down   2. another way java scrit executer its interface we cannot create object 
 //give any name javascript executer js = (javascripts executer)driver;
 //js.executeScript (windows.scrollby(0,(250))   here 500, 750,   if we want to go back for that in front of the number minus 
@@ -44,7 +45,8 @@ package oppsConseptPart2;
 // verify but if we use verify then even if there any failure it will still execute 
 
 //total number of frames  
-//total number of links we have to use list<Webelement> list= driver.findelements( By.tagname("a"));  if the tag name is a it means its link 
+//total number of links we have to use list<Webelement> list= driver.findelements( By.tagname("a")); 
+//if the tag name is a it means its link 
 //list.size();
 //same code for the frames as well 
 //if the http status code is 404 it means theres a broken link 
@@ -54,7 +56,8 @@ package oppsConseptPart2;
 
 
 //handling dropdown select class  creating object of the select class 
-//Select s =new Select();  there 3 method select by value , select by index, select by visible text. ususuly we choose select by visible text because it can handle dynmaic 
+//Select s =new Select();  there 3 method select by value , select by index, select by visible text.
+//ususuly we choose select by visible text because it can handle dynmaic 
 // web elelemnts   
 
 //handling dynmaic web elements we use relative xpath there contains (), starts with () end with() methods 

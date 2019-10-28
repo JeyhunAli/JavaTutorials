@@ -14,7 +14,7 @@
 //we dont use hashtable for fast performance because hashtable is synchronized hashtable accesible only one thread but hashmap 
 //accesible multible threads  it means hashap is not thread safe 
 //soo there is a problem with the hashmap let me explain 
-
+//
 //usually in multi threading application hashmap is used in order to improve the performance 
 
 // if i want to avoid from multhi threding in hashmap instead of hashmap need to use concurrent hashmap and this hashmap came to the market 
