@@ -1,4 +1,6 @@
+//jeyhuns notes
 //Hashmap is base on key and value  (k and v)
+
 //Hashmap is a class which is extends abstract map which is implements map interface 
 //and which implement map interface, its memeber of map family thats why its implemenet map interface
 //hashmap is contains unique elements 
