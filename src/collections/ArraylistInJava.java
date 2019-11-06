@@ -1,13 +1,37 @@
+
+
+
+
+/** java collections is used when data is dynamic 
+ * java collections are framework that provides to store and manipulate the group of the data 
+ * java collections can achieve all the operations that i we can perform in java such as inserting deleting searching sorting 
+ * java collections provides many interfaces like set list queue 
+ * and classes Arraylist, linkedlist, Hashset, linkedhashset
+ * 
+ * 
+ */
+
+
+
+
+
+
+
+
+
+
+
 //Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
+
 //We cannot change length of array once created in Java but ArrayList can be changed.
-//if we want to change size of static array it gonna give us outofbounding error
+//if we want to change size of static array it gone give us outofboundexception
 //to solve this issue we use one of the dynamic array consept calls Arraylist
 
-//We cannot store primitives in ArrayList, it can only store objects. But array can contain both primitives and objects in Java. 
+
 //
 //
 //
-package java_tutorials; 
+package collections; 
 
 import java.util.ArrayList; //once we created object of Array list here we are importing 
 
@@ -30,7 +54,7 @@ public class ArraylistInJava {
 		ar.add(400);  //in arraylist we can store duplicate values as well 
 		ar.add(500);  //in arraylist it maintenance insertion order it means  it starts from zero 
 		ar.add(600);  // synchronized
-		ar.add(600); 
+		ar.add(600);  //duplicate value are allowed in arrayy list 
 		
 		System.out.println(ar.size());
 		
@@ -43,7 +67,7 @@ public class ArraylistInJava {
 		ar.add("gelmishdun");
 		System.out.println(ar.size());
 		
-		ar.remove(12); //remove method available just in case
+		ar.remove(12); //remove method available just in case 
 		
 		System.out.println(ar.size());
 		
@@ -83,8 +107,32 @@ public class ArraylistInJava {
 		System.out.println(ar2.size());
 		System.out.println(ar2.get(2));
 		
+		/**
+		 * Arraylist is implementing list interface 
+		 * in arraylist we insert the values in basis of ordering like start from 0,1,2,3,4 so on
+		 * arraylist is not synchronized  thats why its slow 
+		 * in arraylist we can fetch the value by the random access by index 
+		 * if we are using array list without generics we can store all kind of data type ---and this calls non generics array list concept 
+		 * but once we define generics in our array list we have to pass that values to the array list 
+		 */
 		
 		
+		/**
+		 * sometimes in arraylist we have to define our user define means --- class object
+		 * 
+		 * 
+		 * 
+		 * Java ArrayList class uses a dynamic array for storing the elements. It inherits AbstractList class and implements List interface.
+
+The important points about Java ArrayList class are:
+
++Java ArrayList class can contain duplicate elements.
++Java ArrayList class maintains insertion order -- it means starts from zero 
++Java ArrayList class is non synchronized.
++Java ArrayList allows random access because array works at the index basis.
++In Java ArrayList class, manipulation is slow because a lot of shifting needs to be occurred if any element is removed from the array list.
+		 * 
+		 */
 		
 		
 	}

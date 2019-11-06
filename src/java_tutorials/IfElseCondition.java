@@ -10,7 +10,7 @@ public class IfElseCondition {
 		 int b = 20;
 		 
 		 if(b>a) {             // this call comparison  if else condition.
-			              //comparison opeartors < > <= >= != ==      
+			              //comparison operators < > <= >= != ==      
 			 System.out.println("b is greater than a");
 			 
 		 }else 

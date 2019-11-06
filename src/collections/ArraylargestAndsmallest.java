@@ -1,4 +1,4 @@
-package java_tutorials;
+package collections;
 
 import java.util.Arrays;
 

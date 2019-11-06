@@ -1,9 +1,9 @@
-package java_tutorials;
+package collections;
 
 public class Employee {
 	
 	
-	String name;
+	public String name;
 	int age;
 	String city;
 	String Dept;

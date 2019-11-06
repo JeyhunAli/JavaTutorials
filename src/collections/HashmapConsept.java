@@ -1,8 +1,12 @@
+
+
+
+
 //jeyhuns notes
 //Hashmap is base on key and value  (k and v)
 
 //Hashmap is a class which is extends abstract map which is implements map interface 
-//and which implement map interface, its memeber of map family thats why its implemenet map interface
+//and which implement map interface, its memeber of map family thats why its implement map interface
 //hashmap is contains unique elements 
 //hashmap stores the value in the form of key and value of pair 
 //hashmap it may have one null key and multiple null values
@@ -10,7 +14,7 @@
 //it will give null
 //we use Entry interface in hashmap to traverse the value 
 ////hashmap is not synchronized it means if i use multi threading concept then more than one thread can i access proccess of the hashmap
-//going to be simultaneously   it means all the threads are running and and hashmap object can be accessibly by all the threads
+//going to be simultaneously   it means all the threads are running and hashmap object can be accessibly by all the threads
 //then performance of the hashmap will be increased automatically 
 //whenever we need fast performance we use hashmap
 //we dont use hashtable for fast performance because hashtable is synchronized hashtable accesible only one thread but hashmap 
@@ -25,14 +29,25 @@
 //lets say i have one hashmap object created with key and value pair 
 //and there also some more threads and they can access to main object  once they access it if they do some manupilation or some change 
 //or main hashmap  if some change happening in hashmap object u are excepting something but u getting different updated version
-//and this candititon call in java fail fast  at that time its gonna give concurrent modification exception
+//and this candititon call in java failfast  at that time its gonna give concurrent modification exception
+
+/**
+ * hashmap is non synchronized it means all thread can  access to hashmap all together and if they do some changes its becomes failfast conditions
+ * and it s gone give concurrent modification exception
+ * 
+ * but hashtable is synchronized it means accessing it its  one by one 
+ * 
+ * HashMap allows one null key and multiple null values.
+ * Hashtable doesn't allow any null key or value.
+ * HashMap is fast.
+ * Hashtable is slow.
+ */
 
 
 
 
 
-
-package java_tutorials;
+package collections;
 
 import java.util.HashMap;
  
@@ -48,6 +63,7 @@ public class HashmapConsept {
 		hm.put(3, "YouTube");
 		hm.put(4, "Dell laptop");
 		
+		
 		  System.out.println(hm.get(1));
 		  System.out.println(hm.get(2));
 		  System.out.println(hm.get(5));   //here if we run this program its not gonna give us any outofboundexception 
@@ -60,19 +76,10 @@ public class HashmapConsept {
 		  //Entry here 
 		  
 		  
-		  for( Entry  m: hm.entrySet()) {         //this is the consept of fecthing the value 
+		  for( Entry  m: hm.entrySet()) {         //this is the concept of fetching the value 
 			  System.out.println(m.getKey() +" "+m.getValue());   // m here is storing reference value 
 		  }
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
-		  
+		 
 		
 		  
 		  System.out.println("**********************************");
