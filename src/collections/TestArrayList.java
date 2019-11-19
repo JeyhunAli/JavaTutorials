@@ -20,10 +20,10 @@ public class TestArrayList {
 
 		 
 		/**
-		 * creating onject of the aerraylist and passing all these three data to arraylist 
+		 * creating object of the arraylist and passing all these three data to arraylist 
 		 * this is the most important concept 
-		 * 1st creating class with constructor adding all the parameters  then inside arraylist class 
-		 * creating that particular class object then creating arrayylist object then passing class name inside the arraylist 
+		 * 1st creating class with constructor adding all the parameters  then inside Testarraylist class 
+		 * creating that particular class object then creating arraylist object then passing class name inside the arraylist 
 		 * then add method 
 		 * but if i want to get all the values for that i have to use iterator with the while loop 
 		 * then has next method after that next method 

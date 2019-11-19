@@ -24,7 +24,7 @@
 //Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
 
 //We cannot change length of array once created in Java but ArrayList can be changed.
-//if we want to change size of static array it gone give us outofboundexception
+//if we want to change size of static array it gonne give us outofboundexception
 //to solve this issue we use one of the dynamic array consept calls Arraylist
 
 
