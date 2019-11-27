@@ -12,15 +12,6 @@
  */
 
 
-
-
-
-
-
-
-
-
-
 //Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
 
 //We cannot change length of array once created in Java but ArrayList can be changed.
