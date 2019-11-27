@@ -17,11 +17,20 @@
 //overall what is the Abstarction ------->> abstarction is the process of hiding the implementation details, we are just declaring abstract
 //methods in abstract class and defining all of them in the overriden child class     --->>this is call abstraction
 
-//one more example for abstraction for exampple whats up 
+//one more example for abstraction for exampple whats up application
 // there are abstarct method inside of the written code its send message abstarct method right but in implementation 
 //in overriden child class u are defining how to send message for example group message single message image video message these all the logic 
 // we are defining in our overriden child class 
 
+
+/**
+ * in abstarction we can create constructor of the abstarct class and as well as child class of abstarction 
+ * but while execution of test first of all java vm will check both child and parent class but 
+ * it will execute first parent class constructor then it will execute child class constructor 
+ * 
+ * constructor is preferred to be non abstarct method in abstarct class because while extebding that class it will unneceserrily call all the undefined 
+ * methods . because of that its better to create constructor inside of the astarct class as a non abstarct with body 
+ */
 
 package oopsconcept3;
 
