@@ -28,7 +28,8 @@
  * but while execution of test first of all java vm will check both child and parent class but 
  * it will execute first parent class constructor then it will execute child class constructor 
  * 
- * constructor is preferred to be non abstarct method in abstarct class because while extebding that class it will unneceserrily call all the undefined 
+ * constructor is preferred to be non abstarct method in abstarct class because while extebding that class it will 
+ * unneceserrily call all the undefined 
  * methods . because of that its better to create constructor inside of the astarct class as a non abstarct with body 
  * 
  * 
@@ -36,7 +37,7 @@
  * if we declare method as static in abstract class obviously we cannot ovverride it but we can call it by class name 
  * but if we try to override it with the @override key word it will throw an error 
  * but without that keyword we can have that method as a separate independet method 
- * but if we declare some method in abstract class as a final firt its not allow to ovveride and also 
+ * but if we declare some method in abstract class as a final first its not allow to ovveride and also 
  * its not even allows to have that method independently in my child class 
  * 
  */
