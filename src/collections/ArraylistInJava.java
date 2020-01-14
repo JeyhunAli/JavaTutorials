@@ -2,7 +2,9 @@
 
 
 
-/** java collections is used when data is dynamic 
+/** 
+ *
+ * java collections is used when data is dynamic 
  * java collections are framework that provides to store and manipulate the group of the data 
  * java collections can achieve all the operations that i we can perform in java such as inserting deleting searching sorting 
  * java collections provides many interfaces like set list queue 
