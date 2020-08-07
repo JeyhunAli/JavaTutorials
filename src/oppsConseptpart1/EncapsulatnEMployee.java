@@ -17,6 +17,12 @@ public class EncapsulatnEMployee {
 	private int age;           // fields 
 	private String adress;
 	
+	/**
+	 * Encapsulation means to encapsulate two thing together 
+	 * @param args
+	 */
+	
+	
 	
 	public static void main(String[] args) {
 		EncapsulatnEMployee emp = new EncapsulatnEMployee();

@@ -9,7 +9,7 @@
 //but in interface we cannot create method with the body 
 //because of that abstarct class its not 100% abstarction because inside of the class there are methods with and without body 0-100
 //thats why abstract class calls partial abstraction
-//but interface is 100% abstarction because inside of the interface all methods without body 100
+//but interface is 100% abstarction because inside of the interface all methods without body 100% apstraction
 //we can create constructor abstract class
 //if inside of the abstarct clas no any abstarct methods it calls zero persent abstarction 
 //if inside of the abstract method all the methods are abstract methods i mean without body that calls 100 %abstraction

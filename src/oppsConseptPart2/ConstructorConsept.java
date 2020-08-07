@@ -13,7 +13,7 @@
 //Constructor is used to initialize an object whereas method is used to indicate functionality of an object.
 //Constructors are invoked implicitly whereas methods are invoked explicitly. ... Constructor should be the same name as class. 
 //but method can be any other name.
-//	constructor calls on its on we don’t need to explicit any other method.
+//constructor calls on its on we don’t need to explicit any other method.
 //one more thing for the constructor if we give some value some arguments 
 //Let’s say we have 2 constructors in one class we can call one constructor inside to another constructor for that we have to use this keyword 
 package oppsConseptPart2;

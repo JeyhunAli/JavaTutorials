@@ -49,6 +49,9 @@ public class ArraylistInJava {
 		ar.add(600);  // synchronized
 		ar.add(600);  //duplicate value are allowed in arrayy list 
 		
+		
+		// System.out.println(ar.get(7));  if i run this line it will give     <<<java.lang.IndexOutOfBoundsException>>>
+		
 		System.out.println(ar.size());
 		
 		ar.add("hello Automation");
@@ -82,7 +85,7 @@ public class ArraylistInJava {
 		
 		
 		//restiriction of data type in my arraylist once we restrict it we can declare only that particular data type 
-		//for that first we create object with which data tyoe we want to define 
+		//for that first we create object with which data type we want to define 
 		ArrayList<Integer> ar1 = new ArrayList<Integer>();
 		ar1.add(5000);
 		//ar1.add("learning java")  once we declared data type as integer then we cannot use another data type 
@@ -124,6 +127,24 @@ The important points about Java ArrayList class are:
 +Java ArrayList class is non synchronized.
 +Java ArrayList allows random access because array works at the index basis.
 +In Java ArrayList class, manipulation is slow because a lot of shifting needs to be occurred if any element is removed from the array list.
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * default capacity of arraylist is 10 
+		 * whenever we are creating object of the arraylist java internally spare a capacity for that and its ten 
+		 * there ywo type of the capacity one virtual another one is physical capacity
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
 		 * 
 		 */
 		
