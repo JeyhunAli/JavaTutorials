@@ -1,4 +1,16 @@
 //final  method is making something single copy u cannot change it 
+
+/**
+ * method chaning with static 
+ * 
+ * if the methods are non static u can call them inside each other without creating object 
+ * if u want u call non static inside main method u have to create the object of it 
+ * if the method are non static when u are calling that method inside static method u have to create the object 
+ * 
+ * if the method are static u can call them directly or by the class name 
+ */
+
+
 //if the parent class is final u cannot access it in child class 
 //final makes variable costant .the keyword final in front of a method restrict any class to ovverride it 
 package oppsConseptpart1;

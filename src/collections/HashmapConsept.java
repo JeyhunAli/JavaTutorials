@@ -13,12 +13,12 @@
 //in hash map lets say we are printing the key which is not exisitng in the code while executing its not gonna give out of bound exception
 //it will give null because it stores the data in key and value pair format not with indexing 
 //we use Entry interface in hashmap to traverse the value 
-////hashmap is not synchronized it means if i use multi threading concept then more than one thread can i access proccess of the hashmap
+////hashmap is not synchronized it means if i use multi threading concept then more than one thread can  access proccess of the hashmap
 //going to be simultaneously   it means all the threads are running and hashmap object can be accessibly by all the threads
 //then performance of the hashmap will be increased automatically 
 //whenever we need fast performance we use hashmap
-//we dont use hashtable for fast performance because hashtable is synchronized hashtable accesible only one thread but hashmap 
-//accesible multible threads  it means hashap is not thread safe 
+//we dont use hashtable for fast performance because hashtable is synchronized hashtable accesible only one thread at the time but hashmap 
+//accesible multible threads  it means hashmap is not thread safe 
 //soo there is a problem with the hashmap let me explain 
 //
 //usually in multi threading application hashmap is used in order to improve the performance 

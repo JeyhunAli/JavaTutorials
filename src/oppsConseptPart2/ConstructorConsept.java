@@ -16,6 +16,18 @@
 //constructor calls on its on we don’t need to explicit any other method.
 //one more thing for the constructor if we give some value some arguments 
 //Let’s say we have 2 constructors in one class we can call one constructor inside to another constructor for that we have to use this keyword 
+
+
+/**
+ * CONSTRUCTOR comes to the picture lets say we hace class variables and we have to use them multiple time so everytime need 
+ * to create property of that i mean need to create object then access 
+ * to do it very efficient way is with constructor
+ * 
+ * when u are creating that particular class object if it has constructor it will automatically call   
+ * in constructor we use this key word to differentiate local and global variable
+ * 
+ * if the class variable declared as static u cannot create same property inside of the constructor its not allowed 
+ */
 package oppsConseptPart2;
 
 public class ConstructorConsept {
