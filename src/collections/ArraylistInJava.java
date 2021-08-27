@@ -28,6 +28,8 @@ public class ArraylistInJava {
 	public static void main(String[] args) {
 		// here we can add all kind of data types in our arraylist
 
+		
+		//first way of declaring arraylist
 		ArrayList ar = new ArrayList(); // creating the ArrayList Object its default alredy exist in java
 										// this is the non generic array list collection.because we didnt define them
 										// and they give yeollow color warning
@@ -36,7 +38,7 @@ public class ArraylistInJava {
 		ar.add(200);
 		ar.add(300);
 
-		// checking current size for that we use .size method alredy inside of the java
+		// checking current size for that we use .size method already inside of the java
 		System.out.println(ar.size());
 
 		// Adding some more value
@@ -63,6 +65,10 @@ public class ArraylistInJava {
 
 		System.out.println(ar.size());
 
+		
+		ArrayList <Object> arr = new ArrayList<Object>();
+		
+		
 		// if i want to check what is the value of 4th location for that we use get
 		// method in java
 		// if want to check the index location which is not available its gonna throw
@@ -83,6 +89,7 @@ public class ArraylistInJava {
 		// restiriction of data type in my arraylist once we restrict it we can declare
 		// only that particular data type
 		// for that first we create object with which data type we want to define
+		
 		ArrayList<Integer> ar1 = new ArrayList<Integer>();
 		ar1.add(5000);
 		// ar1.add("learning java") once we declared data type as integer then we cannot
@@ -136,21 +143,43 @@ public class ArraylistInJava {
 		 * 
 		 * 
 		 * default capacity of arraylist is 10 whenever we are creating object of the
-		 * arraylist java internally spare a capacity for that and its ten there ywo
+		 * arraylist java internally spare a capacity for that and its ten there two
 		 * type of the capacity one virtual another one is physical capacity
 		 * 
-		 * 
-		 * 
-		 * 
-		 * 
-		 * 
-		 * 
-		 * 
-		 * 
-		 * 
+		 *  
 		 * 
 		 */
 
+		
+		//question 
+		//can we change virtual capasity of arraylist 
+		//answer yes  for example 
+		
+		//here passing param as 20,30 60 as we want we can change it virtual capacity from 10 as we wish to
+		ArrayList<Integer> arInt = new ArrayList<Integer>(30);
+		arInt.add(10);
+		arInt.add(2);
+		arInt.add(3);
+		
+		System.out.println(arInt.size());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
